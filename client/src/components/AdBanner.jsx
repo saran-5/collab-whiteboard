@@ -17,7 +17,7 @@ export default function AdBanner() {
         className="adsbygoogle"
          style={{
       display: "block",
-      width: "100%",
+      width: "50%",
       height: "90px"
     }}
         data-ad-client="ca-pub-5868162591985814"
