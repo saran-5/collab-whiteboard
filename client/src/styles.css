@@ -385,17 +385,14 @@ button {
    Ad banner
 ------------------------------------------------------------------- */
 .ad-banner {
-  flex-shrink: 0;
-  height: 90px;
-  max-height: 12vh;
+  width: 100%;
+  min-height: 90px;
+
   display: flex;
-  align-items: center;
   justify-content: center;
-  background: var(--border);
-  color: var(--ink-soft);
-  font-size: 0.78rem;
-  letter-spacing: 0.03em;
-  border-top: 1px dashed var(--ink-soft);
+  align-items: center;
+
+  overflow: hidden;
 }
 
 /* ------------------------------------------------------------------
