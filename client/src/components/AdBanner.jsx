@@ -15,7 +15,11 @@ export default function AdBanner() {
     <div className="ad-banner">
       <ins
         className="adsbygoogle"
-        style={{ display: "block" }}
+         style={{
+      display: "block",
+      width: "100%",
+      height: "90px"
+    }}
         data-ad-client="ca-pub-5868162591985814"
         data-ad-slot="7037197547"
         data-ad-format="auto"
